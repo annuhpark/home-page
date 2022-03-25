@@ -71,4 +71,37 @@ ul {
 
 div.hero-image {
   position: absolute;
+  left: 180px;
+  right: 560px;
+  top: 200px;
+  color: white;
+}
+
+.row4 {
+  display: flex;
+  justify-content: center;
+}
+
+.row5 {
+  display: flex;
+  justify-content: center;
+}
+
+.col-fourth {
+  width: 25%;
+  justify-content: center;
+  text-align: center;
+}
+
+.col-fourth > img {
+  width: 100%;
+}
+
+p {
+  font-size: 12px;
+}
+
+.row6 {
+  display: flex;
+  justify-content: center;
 }
