@@ -4,7 +4,6 @@ ul {
 
 .container {
   margin: auto;
-  max-width: 1000px;
 }
 
 .row {
@@ -35,8 +34,27 @@ ul {
   justify-content: center;
 }
 
+.search-border {
+  border: 2px solid orange;
+  border-radius: 3px;
+}
+
 .input-search {
   width: 400px;
+  height: 35px;
+  border: none;
+  margin: 0 10px;
+}
+
+.search-button {
+  color: white;
+  background-color: orange;
+  border: none;
+  border-radius: 4px;
+  width: 75px;
+  height: 35px;
+  margin: 0.5px 1px 0.5px 0;
+  font-size: 16px;
 }
 
 .row3 {
