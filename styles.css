@@ -1,0 +1,23 @@
+ul {
+  list-style: none;
+}
+
+.conatiner {
+  margin: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.col-third {
+  flex-basis: calc(100% / 3);
+}
+
+.header-h2 {
+  color: orange;
+}
+
+.header-option {
+  border: none;
+}
