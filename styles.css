@@ -4,6 +4,7 @@ ul {
 
 .container {
   margin: auto;
+  max-width: 1000px;
 }
 
 .row {
@@ -26,4 +27,22 @@ ul {
 .row1 {
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+
+.row2 {
+  display: flex;
+  justify-content: center;
+}
+
+.input-search {
+  width: 400px;
+}
+
+.row3 {
+  display: flex;
+}
+
+.row3 > img {
+  width: 100%;
 }
