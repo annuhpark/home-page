@@ -2,7 +2,7 @@ ul {
   list-style: none;
 }
 
-.conatiner {
+.container {
   margin: auto;
 }
 
@@ -12,6 +12,7 @@ ul {
 
 .col-third {
   flex-basis: calc(100% / 3);
+  align-items: center;
 }
 
 .header-h2 {
@@ -20,4 +21,9 @@ ul {
 
 .header-option {
   border: none;
+}
+
+.row1 {
+  display: flex;
+  align-items: center;
 }
