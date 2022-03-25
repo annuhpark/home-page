@@ -1,3 +1,7 @@
+body {
+  font-family: sans-serif;
+}
+
 ul {
   list-style: none;
 }
@@ -99,6 +103,19 @@ div.hero-image {
 
 p {
   font-size: 12px;
+}
+
+.moment-section {
+  border: 2px solid lightgrey;
+  margin: 0 10px;
+}
+
+.moment-section-text {
+  padding: 0 15px;
+}
+
+.moment-section-p {
+  font-size: 14px;
 }
 
 .row6 {
