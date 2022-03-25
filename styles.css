@@ -4,6 +4,7 @@ ul {
 
 .container {
   margin: auto;
+  max-width: 1000px;
 }
 
 .row {
@@ -11,12 +12,14 @@ ul {
 }
 
 .col-third {
-  flex-basis: calc(100% / 3);
+  flex-basis: calc(100% / 4);
   align-items: center;
+  justify-content: space-between;
 }
 
 .header-h2 {
   color: orange;
+  text-align: center;
 }
 
 .header-option {
@@ -26,7 +29,7 @@ ul {
 .row1 {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .row2 {
@@ -63,4 +66,9 @@ ul {
 
 .row3 > img {
   width: 100%;
+  position: relative;
+}
+
+div.hero-image {
+  position: absolute;
 }
