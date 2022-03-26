@@ -96,6 +96,7 @@ div.hero-image {
   top: 250px;
   color: white;
   line-height: 1.5rem;
+  max-width: 430px;
 }
 
 .row4 {
@@ -156,6 +157,7 @@ button.hero-image {
   background-color: #eb7002;
   color: white;
   font-family: sans-serif, Arial, Helvetica, sans-serif;
+  font-size: 1.1rem;
   font-weight: bold;
   padding: 8px 15px;
   border-radius: 20px;
