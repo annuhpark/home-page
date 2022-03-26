@@ -7,7 +7,8 @@ ul {
 }
 
 li {
-  margin-right: 6px;
+  margin-right: 15px;
+  font-weight: 700;
 }
 
 .container {
@@ -24,7 +25,7 @@ li {
 }
 
 .col-third {
-  flex-basis: calc(100% / 4);
+  flex-basis: calc(100% / 3);
   align-items: center;
   justify-content: space-between;
 }
@@ -36,12 +37,19 @@ li {
 
 .header-option {
   border: none;
+  margin: 0 15px 0 0;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .row1 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.li-weight {
+  font-weight: 300;
 }
 
 .row2 {
